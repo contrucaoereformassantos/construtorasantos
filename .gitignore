@@ -1,0 +1,17 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+npm-debug.log*
