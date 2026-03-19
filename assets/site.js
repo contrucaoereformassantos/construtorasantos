@@ -37,3 +37,42 @@ const yearEl = document.getElementById('currentYear');
 if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
+
+const revealSelectors = [
+  '.badge',
+  '.section-title',
+  '.section-sub',
+  '.hero-cta',
+  '.hero-panel',
+  '.card',
+  '.service-group',
+  '.contact-row',
+  '.timeline article',
+  '.cta-band'
+];
+
+const revealElements = document.querySelectorAll(revealSelectors.join(','));
+if (revealElements.length > 0) {
+  revealElements.forEach((el, index) => {
+    el.classList.add('reveal');
+    const delay = Math.min((index % 8) * 70, 420);
+    el.style.setProperty('--delay', `${delay}ms`);
+  });
+
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.12,
+      rootMargin: '0px 0px -8% 0px'
+    }
+  );
+
+  revealElements.forEach((el) => revealObserver.observe(el));
+}
