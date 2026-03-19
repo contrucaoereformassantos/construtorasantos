@@ -693,11 +693,18 @@ header.scrolled .menu-toggle {
   border-radius: 999px;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 11px 16px;
-  font-weight: 900;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  padding: 0;
   box-shadow: 0 14px 24px rgba(37, 211, 102, 0.35);
   transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.float-wa a svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
 }
 
 .float-wa a:hover {
