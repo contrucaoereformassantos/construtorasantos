@@ -3,1865 +3,311 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Construtora Santos | Construção e Reformas com Qualidade</title>
-  <meta name="description" content="Vai construir ou reformar? A Construtora Santos transforma seu projeto em realidade com qualidade, rapidez e profissionais especializados." />
-  <meta name="keywords" content="construtora, construção civil, reformas, construção residencial, empresa de construção, construtora no Brasil" />
+  <title>Construtora Santos | Construção, Reforma e Projetos</title>
+  <meta name="description" content="Construtora Santos: construção, reformas, projetos e serviços técnicos em todo o território estadual. Fale por WhatsApp ou e-mail." />
+  <meta name="keywords" content="construtora santos, construção civil, reformas, projetos arquitetônicos, obras comerciais" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://construtorasantos.com.br/" />
 
-  <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="Logo/logo3.svg" />
   <link rel="apple-touch-icon" href="Logo/logo3.svg" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Construtora Santos | Construção e Reformas com Qualidade" />
-  <meta property="og:description" content="Vai construir ou reformar? A Construtora Santos transforma seu projeto em realidade com qualidade, rapidez e profissionais especializados." />
+  <meta property="og:title" content="Construtora Santos | Construção, Reforma e Projetos" />
+  <meta property="og:description" content="Atendimento em todo o território estadual com qualidade, equipe especializada e compromisso com prazo." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://construtorasantos.com.br/" />
 
-  <!-- Schema.org LocalBusiness -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Construtora Santos",
-    "description": "Construção e reformas com qualidade, rapidez e profissionais especializados.",
+    "description": "Construção civil, reformas, projetos e gerenciamento de obras.",
     "url": "https://construtorasantos.com.br",
     "telephone": "+5512992060227",
+    "email": "verificar.assessoria@gmail.com",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "Rua Frei Gaspar 637 - CJ37",
+      "addressLocality": "São Vicente",
+      "addressRegion": "SP",
+      "postalCode": "11310-060",
       "addressCountry": "BR"
-    }
+    },
+    "areaServed": "Todo o território estadual"
   }
   </script>
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-
-  <style>
-    /* ─── RESET & BASE ─── */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; font-size: 16px; }
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #ffffff;
-      color: #111111;
-      overflow-x: hidden;
-    }
-    img { max-width: 100%; height: auto; display: block; }
-    a { text-decoration: none; color: inherit; }
-    ul { list-style: none; }
-
-    /* ─── CSS VARIABLES ─── */
-    :root {
-      --red:     #E40001;
-      --red-dk:  #b50001;
-      --black:   #0a0a0a;
-      --white:   #ffffff;
-      --gray-50: #f9f9f9;
-      --gray-100:#f2f2f2;
-      --gray-200:#e0e0e0;
-      --gray-500:#6b6b6b;
-      --radius:  10px;
-      --shadow:  0 4px 24px rgba(0,0,0,0.10);
-      --shadow-lg: 0 12px 40px rgba(0,0,0,0.15);
-    }
-
-    /* ─── TYPOGRAPHY ─── */
-    h1,h2,h3,h4 { font-family: 'Poppins', sans-serif; line-height: 1.15; }
-
-    /* ─── UTILITY ─── */
-    .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-    .section { padding: 96px 0; }
-    .section-sm { padding: 64px 0; }
-    .badge {
-      display: inline-block;
-      background: var(--red);
-      color: var(--white);
-      font-family: 'Poppins', sans-serif;
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding: 6px 16px;
-      border-radius: 100px;
-      margin-bottom: 16px;
-    }
-    .section-title {
-      font-size: clamp(2rem, 4vw, 2.8rem);
-      font-weight: 800;
-      color: var(--black);
-      margin-bottom: 16px;
-    }
-    .section-title span { color: var(--red); }
-    .section-sub {
-      font-size: 1.05rem;
-      color: var(--gray-500);
-      max-width: 580px;
-      line-height: 1.7;
-    }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-      font-size: 0.95rem;
-      padding: 14px 32px;
-      border-radius: 100px;
-      cursor: pointer;
-      transition: all 0.25s ease;
-      border: 2px solid transparent;
-    }
-    .btn-primary {
-      background: var(--red);
-      color: var(--white);
-      box-shadow: 0 4px 20px rgba(228,0,1,0.35);
-    }
-    .btn-primary:hover {
-      background: var(--red-dk);
-      box-shadow: 0 6px 28px rgba(228,0,1,0.45);
-      transform: translateY(-2px);
-    }
-    .btn-outline {
-      background: transparent;
-      color: var(--white);
-      border-color: var(--white);
-    }
-    .btn-outline:hover {
-      background: var(--white);
-      color: var(--black);
-      transform: translateY(-2px);
-    }
-    .btn-dark {
-      background: var(--black);
-      color: var(--white);
-      box-shadow: var(--shadow);
-    }
-    .btn-dark:hover {
-      background: #222;
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-lg);
-    }
-
-    /* ─── SCROLL REVEAL ─── */
-    .reveal {
-      opacity: 0;
-      transform: translateY(36px);
-      transition: opacity 0.7s ease, transform 0.7s ease;
-    }
-    .reveal.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    /* ─────────────────────────────────────────
-       HEADER — Floating Island Nav
-    ───────────────────────────────────────── */
-    header {
-      position: fixed;
-      top: 16px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: calc(100% - 32px);
-      max-width: 1180px;
-      z-index: 1000;
-      pointer-events: none;
-    }
-    .nav-inner {
-      pointer-events: all;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      height: 62px;
-      padding: 0 8px 0 22px;
-      background: rgba(6, 6, 6, 0.70);
-      backdrop-filter: blur(28px);
-      -webkit-backdrop-filter: blur(28px);
-      border: 1px solid rgba(255,255,255,0.10);
-      border-radius: 100px;
-      transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
-    }
-    header.scrolled .nav-inner {
-      background: rgba(255,255,255,0.97);
-      border-color: rgba(0,0,0,0.07);
-      box-shadow: 0 8px 48px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.06);
-    }
-    .nav-logo { flex-shrink: 0; }
-    .nav-logo img { height: 36px; width: auto; display: block; }
-    .nav-links {
-      display: flex;
-      gap: 26px;
-      flex: 1;
-      justify-content: center;
-    }
-    .nav-links a {
-      font-family: 'Poppins', sans-serif;
-      font-size: 0.87rem;
-      font-weight: 600;
-      color: rgba(255,255,255,0.82);
-      transition: color 0.2s;
-      white-space: nowrap;
-      padding: 4px 0;
-    }
-    .nav-links a:hover { color: var(--red); }
-    header.scrolled .nav-links a { color: var(--black); }
-    header.scrolled .nav-links a:hover { color: var(--red); }
-    .nav-cta { flex-shrink: 0; }
-    /* hamburger */
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      cursor: pointer;
-      padding: 6px 8px;
-      background: none;
-      border: none;
-      margin-right: 2px;
-    }
-    .hamburger span {
-      display: block;
-      width: 22px; height: 2px;
-      background: rgba(255,255,255,0.9);
-      border-radius: 4px;
-      transition: all 0.3s;
-    }
-    header.scrolled .hamburger span { background: var(--black); }
-    .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(4px, 4px); }
-    .hamburger.active span:nth-child(2) { opacity: 0; transform: scaleX(0); }
-    .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(4px, -4px); }
-
-    /* mobile nav — dark glass drawer */
-    .mobile-menu {
-      display: none;
-      position: fixed;
-      top: 90px; left: 16px; right: 16px;
-      background: rgba(8,8,8,0.95);
-      backdrop-filter: blur(28px);
-      -webkit-backdrop-filter: blur(28px);
-      border: 1px solid rgba(255,255,255,0.10);
-      border-radius: 20px;
-      padding: 12px;
-      z-index: 999;
-      box-shadow: 0 24px 64px rgba(0,0,0,0.45);
-    }
-    .mobile-menu.open { display: block; }
-    .mobile-menu a {
-      display: block;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      font-size: 1rem;
-      color: rgba(255,255,255,0.80);
-      padding: 13px 16px;
-      border-radius: 12px;
-      transition: background 0.2s, color 0.2s;
-    }
-    .mobile-menu a:hover, .mobile-menu a:focus { background: rgba(228,0,1,0.15); color: var(--red); }
-
-    /* logo states */
-    header:not(.scrolled) .logo-scrolled { display: none; }
-    header.scrolled .logo-default { display: none; }
-
-    /* ─────────────────────────────────────────
-       HERO — Fixed Parallax Photo
-    ───────────────────────────────────────── */
-    #hero {
-      position: relative;
-      min-height: 100svh;
-      display: flex;
-      align-items: center;
-      background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80');
-      background-size: cover;
-      background-position: center 40%;
-      background-attachment: fixed;
-      background-color: var(--black);
-    }
-    /* iOS Safari não suporta fixed — fallback suave */
-    @supports (-webkit-touch-callout: none) {
-      #hero { background-attachment: scroll; }
-    }
-    .hero-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        105deg,
-        rgba(0,0,0,0.88) 0%,
-        rgba(0,0,0,0.72) 45%,
-        rgba(0,0,0,0.38) 100%
-      );
-    }
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      padding: 140px 0 100px;
-      display: grid;
-      grid-template-columns: 1.05fr 0.95fr;
-      gap: 56px;
-      align-items: center;
-      width: 100%;
-    }
-    /* ── Hero texto (esquerda) ── */
-    .hero-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 9px;
-      background: rgba(228,0,1,0.14);
-      border: 1px solid rgba(228,0,1,0.32);
-      border-radius: 100px;
-      padding: 6px 16px;
-      font-size: 0.76rem;
-      font-weight: 700;
-      font-family: 'Poppins', sans-serif;
-      color: #ff6060;
-      letter-spacing: 0.10em;
-      text-transform: uppercase;
-      margin-bottom: 22px;
-    }
-    .hero-tag::before {
-      content: '';
-      width: 7px; height: 7px;
-      background: var(--red);
-      border-radius: 50%;
-      flex-shrink: 0;
-      animation: blink 1.6s ease-in-out infinite;
-    }
-    @keyframes blink {
-      0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(228,0,1,0.6); }
-      50%       { opacity: 0.4; box-shadow: 0 0 0 5px rgba(228,0,1,0); }
-    }
-    .hero-title {
-      font-size: clamp(2.8rem, 5.5vw, 5rem);
-      font-weight: 900;
-      color: var(--white);
-      line-height: 1.04;
-      letter-spacing: -0.02em;
-      margin-bottom: 20px;
-    }
-    .hero-title em {
-      font-style: normal;
-      color: var(--red);
-    }
-    .hero-subtitle {
-      font-size: clamp(1.1rem, 2vw, 1.5rem);
-      font-weight: 600;
-      color: rgba(255,255,255,0.80);
-      margin-bottom: 14px;
-    }
-    .hero-desc {
-      font-size: 1rem;
-      color: rgba(255,255,255,0.68);
-      max-width: 480px;
-      line-height: 1.80;
-      margin-bottom: 38px;
-    }
-    .hero-actions {
-      display: flex;
-      gap: 14px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-    .btn-ghost {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      color: rgba(255,255,255,0.72);
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-      font-size: 0.9rem;
-      transition: color 0.2s;
-      padding: 14px 4px;
-    }
-    .btn-ghost:hover { color: var(--white); }
-    .btn-ghost svg { transition: transform 0.22s; }
-    .btn-ghost:hover svg { transform: translateX(5px); }
-    /* ── Hero cards (direita) ── */
-    .hero-right {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      align-items: flex-end;
-    }
-    .hero-card {
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.13);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border-radius: 20px;
-      padding: 26px 30px;
-      width: 260px;
-      transition: transform 0.3s, background 0.3s;
-    }
-    .hero-card:hover {
-      transform: translateY(-3px);
-      background: rgba(255,255,255,0.11);
-    }
-    .hero-card.accent {
-      background: var(--red);
-      border-color: var(--red);
-      box-shadow: 0 12px 36px rgba(228,0,1,0.35);
-    }
-    .hero-card.accent:hover { background: var(--red-dk); }
-    .hero-card-label {
-      font-size: 0.72rem;
-      font-weight: 700;
-      font-family: 'Poppins', sans-serif;
-      color: rgba(255,255,255,0.52);
-      text-transform: uppercase;
-      letter-spacing: 0.10em;
-      margin-bottom: 8px;
-    }
-    .hero-card.accent .hero-card-label { color: rgba(255,255,255,0.70); }
-    .hero-card-value {
-      font-family: 'Poppins', sans-serif;
-      font-size: 2.4rem;
-      font-weight: 900;
-      color: var(--white);
-      line-height: 1;
-    }
-    .hero-card-value sup {
-      font-size: 1rem;
-      color: var(--red);
-      vertical-align: super;
-    }
-    .hero-card.accent .hero-card-value sup { color: rgba(255,255,255,0.65); }
-    .hero-card-sub {
-      font-size: 0.80rem;
-      color: rgba(255,255,255,0.48);
-      margin-top: 6px;
-      line-height: 1.4;
-    }
-    .hero-card.accent .hero-card-sub { color: rgba(255,255,255,0.68); }
-    /* ── Scroll hint ── */
-    .hero-scroll-hint {
-      position: absolute;
-      bottom: 28px; left: 50%;
-      transform: translateX(-50%);
-      z-index: 3;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      color: rgba(255,255,255,0.38);
-      font-size: 0.68rem;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-    }
-    .scroll-line {
-      width: 1px;
-      height: 44px;
-      background: linear-gradient(to bottom, var(--red), transparent);
-      animation: scrollLine 2s ease-in-out infinite;
-    }
-    @keyframes scrollLine {
-      0%   { transform: scaleY(0) translateY(0); transform-origin: top; }
-      50%  { transform: scaleY(1) translateY(0); transform-origin: top; }
-      100% { transform: scaleY(0) translateY(44px); transform-origin: bottom; }
-    }
-    /* ── Hero responsive ── */
-    @media (max-width: 960px) {
-      .hero-content { grid-template-columns: 1fr; padding: 140px 0 90px; }
-      .hero-right { display: none; }
-    }
-
-    /* ─────────────────────────────────────────
-       STRIP / NÚMEROS
-    ───────────────────────────────────────── */
-    #strip {
-      background: var(--red);
-      padding: 24px 0;
-      overflow: hidden;
-    }
-    .strip-inner {
-      display: flex;
-      gap: 0;
-      flex-wrap: wrap;
-    }
-    .strip-item {
-      flex: 1 1 200px;
-      text-align: center;
-      padding: 16px 24px;
-      border-right: 1px solid rgba(255,255,255,0.2);
-    }
-    .strip-item:last-child { border-right: none; }
-    .strip-num {
-      font-family: 'Poppins', sans-serif;
-      font-size: 2.4rem;
-      font-weight: 900;
-      color: var(--white);
-      line-height: 1;
-    }
-    .strip-label {
-      font-size: 0.82rem;
-      color: rgba(255,255,255,0.82);
-      margin-top: 4px;
-      letter-spacing: 0.04em;
-    }
-
-    /* ─────────────────────────────────────────
-       BENEFÍCIOS
-    ───────────────────────────────────────── */
-    #beneficios { background: var(--white); }
-    .beneficios-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 32px;
-      margin-top: 56px;
-    }
-    .beneficio-card {
-      background: var(--gray-50);
-      border-radius: var(--radius);
-      padding: 40px 32px;
-      border: 1px solid var(--gray-200);
-      position: relative;
-      overflow: hidden;
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .beneficio-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0;
-      width: 4px; height: 100%;
-      background: var(--red);
-      transform: scaleY(0);
-      transform-origin: top;
-      transition: transform 0.3s;
-    }
-    .beneficio-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
-    .beneficio-card:hover::before { transform: scaleY(1); }
-    .beneficio-icon {
-      width: 56px; height: 56px;
-      background: var(--red);
-      border-radius: 14px;
-      display: flex; align-items: center; justify-content: center;
-      margin-bottom: 24px;
-    }
-    .beneficio-icon svg { width: 28px; height: 28px; stroke: var(--white); }
-    .beneficio-card h3 {
-      font-size: 1.2rem;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-    .beneficio-card p { color: var(--gray-500); line-height: 1.7; font-size: 0.95rem; }
-
-    /* ─────────────────────────────────────────
-       SERVIÇOS
-    ───────────────────────────────────────── */
-    #servicos { background: var(--black); }
-    #servicos .section-title { color: var(--white); }
-    #servicos .section-sub { color: rgba(255,255,255,0.58); }
-    .servicos-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 24px;
-      margin-top: 56px;
-    }
-    .servico-card {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.10);
-      border-radius: var(--radius);
-      padding: 36px 28px;
-      transition: all 0.3s;
-      cursor: default;
-    }
-    .servico-card:hover {
-      background: var(--red);
-      border-color: var(--red);
-      transform: translateY(-4px);
-      box-shadow: 0 12px 36px rgba(228,0,1,0.30);
-    }
-    .servico-num {
-      font-family: 'Poppins', sans-serif;
-      font-size: 0.78rem;
-      font-weight: 700;
-      color: var(--red);
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      margin-bottom: 16px;
-      transition: color 0.3s;
-    }
-    .servico-card:hover .servico-num { color: rgba(255,255,255,0.6); }
-    .servico-card h3 {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--white);
-      margin-bottom: 10px;
-    }
-    .servico-card p { color: rgba(255,255,255,0.60); font-size: 0.93rem; line-height: 1.7; }
-    .servico-card:hover p { color: rgba(255,255,255,0.85); }
-
-    /* ─────────────────────────────────────────
-       PROCESSO
-    ───────────────────────────────────────── */
-    #processo { background: var(--gray-50); }
-    .processo-steps {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 40px;
-      margin-top: 56px;
-      position: relative;
-    }
-    .step {
-      text-align: center;
-      padding: 40px 28px;
-      background: var(--white);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      position: relative;
-    }
-    .step-number {
-      width: 72px; height: 72px;
-      background: var(--red);
-      color: var(--white);
-      font-family: 'Poppins', sans-serif;
-      font-size: 1.8rem;
-      font-weight: 900;
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      margin: 0 auto 24px;
-      box-shadow: 0 6px 20px rgba(228,0,1,0.30);
-    }
-    .step h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 10px; }
-    .step p { color: var(--gray-500); line-height: 1.7; font-size: 0.95rem; }
-
-    /* ─────────────────────────────────────────
-       GALERIA
-    ───────────────────────────────────────── */
-    #galeria { background: var(--white); }
-    .galeria-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: auto;
-      gap: 16px;
-      margin-top: 56px;
-    }
-    .galeria-item {
-      border-radius: var(--radius);
-      overflow: hidden;
-      background: var(--gray-100);
-      position: relative;
-    }
-    .galeria-item:nth-child(1) { grid-column: span 2; grid-row: span 2; }
-    .galeria-item:nth-child(4) { grid-column: span 2; }
-    .galeria-placeholder {
-      width: 100%;
-      padding-top: 70%;
-      background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-      position: relative;
-      overflow: hidden;
-    }
-    .galeria-item:nth-child(1) .galeria-placeholder { padding-top: 50%; }
-    .galeria-item:nth-child(4) .galeria-placeholder { padding-top: 40%; }
-    .galeria-placeholder::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: repeating-linear-gradient(
-        45deg,
-        transparent,
-        transparent 20px,
-        rgba(228,0,1,0.06) 20px,
-        rgba(228,0,1,0.06) 40px
-      );
-    }
-    .galeria-label {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      padding: 16px 20px;
-      background: linear-gradient(to top, rgba(0,0,0,0.75), transparent);
-      display: flex;
-      align-items: flex-end;
-    }
-    .galeria-label span {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      font-size: 0.85rem;
-      color: var(--white);
-      letter-spacing: 0.03em;
-    }
-    .galeria-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-      transition: transform 0.5s ease;
-    }
-    .galeria-item:hover img { transform: scale(1.05); }
-    .galeria-item-inner {
-      position: relative;
-      overflow: hidden;
-      height: 100%;
-    }
-
-    /* ─────────────────────────────────────────
-       DEPOIMENTOS
-    ───────────────────────────────────────── */
-    #depoimentos { background: var(--black); }
-    #depoimentos .section-title { color: var(--white); }
-    .depoimentos-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 28px;
-      margin-top: 56px;
-    }
-    .depoimento-card {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: var(--radius);
-      padding: 36px 32px;
-      position: relative;
-    }
-    .depoimento-card::before {
-      content: '"';
-      font-family: 'Poppins', sans-serif;
-      font-size: 5rem;
-      font-weight: 900;
-      color: var(--red);
-      line-height: 0.8;
-      display: block;
-      margin-bottom: 16px;
-      opacity: 0.6;
-    }
-    .depoimento-card p {
-      color: rgba(255,255,255,0.78);
-      line-height: 1.75;
-      font-size: 1rem;
-      margin-bottom: 24px;
-    }
-    .depoimento-autor {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    .author-avatar {
-      width: 44px; height: 44px;
-      border-radius: 50%;
-      background: var(--red);
-      display: flex; align-items: center; justify-content: center;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-      font-size: 1rem;
-      color: var(--white);
-    }
-    .author-info span {
-      display: block;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-      color: var(--white);
-      font-size: 0.95rem;
-    }
-    .author-info small {
-      color: rgba(255,255,255,0.45);
-      font-size: 0.82rem;
-    }
-    .stars {
-      color: #F59E0B;
-      font-size: 0.85rem;
-      margin-bottom: 2px;
-    }
-
-    /* ─────────────────────────────────────────
-       SOBRE
-    ───────────────────────────────────────── */
-    #sobre { background: var(--white); }
-    .sobre-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 80px;
-      align-items: center;
-    }
-    .sobre-img-wrap {
-      position: relative;
-    }
-    .sobre-img-bg {
-      width: 100%;
-      padding-top: 110%;
-      background: var(--black);
-      border-radius: var(--radius);
-      position: relative;
-      overflow: hidden;
-    }
-    .sobre-img-bg::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: repeating-linear-gradient(
-        -45deg,
-        transparent,
-        transparent 24px,
-        rgba(228,0,1,0.07) 24px,
-        rgba(228,0,1,0.07) 48px
-      );
-    }
-    .sobre-img-accent {
-      position: absolute;
-      bottom: -16px; right: -16px;
-      width: 160px; height: 160px;
-      background: var(--red);
-      border-radius: var(--radius);
-      z-index: -1;
-    }
-    .sobre-badge-float {
-      position: absolute;
-      bottom: 32px; left: -24px;
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 20px 24px;
-      box-shadow: var(--shadow-lg);
-      min-width: 180px;
-    }
-    .sobre-badge-float .num {
-      font-family: 'Poppins', sans-serif;
-      font-size: 2rem;
-      font-weight: 900;
-      color: var(--red);
-      line-height: 1;
-    }
-    .sobre-badge-float .desc {
-      font-size: 0.82rem;
-      color: var(--gray-500);
-      margin-top: 4px;
-    }
-    .sobre-text .section-title { margin-bottom: 24px; }
-    .sobre-text p {
-      color: var(--gray-500);
-      line-height: 1.8;
-      font-size: 1rem;
-      margin-bottom: 16px;
-    }
-    .sobre-list { margin: 24px 0; }
-    .sobre-list li {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-weight: 500;
-      padding: 10px 0;
-      border-bottom: 1px solid var(--gray-200);
-    }
-    .sobre-list li:last-child { border-bottom: none; }
-    .check-icon {
-      width: 22px; height: 22px;
-      background: var(--red);
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
-    }
-    .check-icon svg { width: 12px; height: 12px; stroke: var(--white); }
-
-    /* ─────────────────────────────────────────
-       CTA SECTION
-    ───────────────────────────────────────── */
-    #cta {
-      background: var(--red);
-      padding: 80px 0;
-    }
-    .cta-inner {
-      text-align: center;
-    }
-    .cta-inner h2 {
-      font-size: clamp(2rem, 4vw, 2.8rem);
-      font-weight: 900;
-      color: var(--white);
-      margin-bottom: 16px;
-    }
-    .cta-inner p {
-      font-size: 1.05rem;
-      color: rgba(255,255,255,0.82);
-      margin-bottom: 40px;
-      max-width: 500px;
-      margin-left: auto;
-      margin-right: auto;
-      line-height: 1.7;
-    }
-    .cta-buttons { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
-
-    /* ─────────────────────────────────────────
-       CONTATO
-    ───────────────────────────────────────── */
-    #contato { background: var(--gray-50); }
-    .contato-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.4fr;
-      gap: 64px;
-      margin-top: 56px;
-      align-items: start;
-    }
-    .contato-info h3 {
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-    }
-    .contato-info p {
-      color: var(--gray-500);
-      line-height: 1.7;
-      margin-bottom: 36px;
-    }
-    .contato-item {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      padding: 16px 0;
-      border-bottom: 1px solid var(--gray-200);
-    }
-    .contato-item:last-child { border-bottom: none; }
-    .contato-item-icon {
-      width: 48px; height: 48px;
-      background: var(--red);
-      border-radius: 12px;
-      display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
-    }
-    .contato-item-icon svg { width: 22px; height: 22px; stroke: var(--white); }
-    .contato-item-text span {
-      display: block;
-      font-size: 0.78rem;
-      color: var(--gray-500);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      font-weight: 600;
-      margin-bottom: 2px;
-    }
-    .contato-item-text strong {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-      font-size: 1rem;
-    }
-    /* form */
-    .contact-form {
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 48px 40px;
-      box-shadow: var(--shadow);
-    }
-    .contact-form h3 {
-      font-size: 1.3rem;
-      font-weight: 700;
-      margin-bottom: 28px;
-    }
-    .form-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
-    .form-group { margin-bottom: 16px; }
-    .form-group label {
-      display: block;
-      font-size: 0.82rem;
-      font-weight: 600;
-      color: var(--black);
-      margin-bottom: 8px;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-    }
-    .form-group input,
-    .form-group textarea,
-    .form-group select {
-      width: 100%;
-      padding: 12px 16px;
-      border: 1.5px solid var(--gray-200);
-      border-radius: var(--radius);
-      font-family: 'Inter', sans-serif;
-      font-size: 0.95rem;
-      color: var(--black);
-      background: var(--white);
-      transition: border-color 0.2s;
-      outline: none;
-    }
-    .form-group input:focus,
-    .form-group textarea:focus {
-      border-color: var(--red);
-    }
-    .form-group textarea {
-      resize: vertical;
-      min-height: 120px;
-    }
-    .form-check {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      margin-bottom: 24px;
-    }
-    .form-check input[type="checkbox"] {
-      margin-top: 3px;
-      accent-color: var(--red);
-      width: auto;
-    }
-    .form-check label {
-      font-size: 0.82rem;
-      color: var(--gray-500);
-      text-transform: none;
-      letter-spacing: 0;
-      font-weight: normal;
-    }
-    .form-check label a { color: var(--red); font-weight: 600; }
-    .form-submit { width: 100%; justify-content: center; cursor: pointer; }
-    .form-success {
-      display: none;
-      text-align: center;
-      padding: 24px;
-      background: #f0fdf4;
-      border: 1.5px solid #86efac;
-      border-radius: var(--radius);
-      color: #166534;
-      font-weight: 600;
-      margin-top: 16px;
-    }
-
-    /* ─────────────────────────────────────────
-       WHATSAPP FLUTUANTE
-    ───────────────────────────────────────── */
-    .whatsapp-float {
-      position: fixed;
-      bottom: 28px; right: 28px;
-      z-index: 9999;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 12px;
-    }
-    .whatsapp-float a {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      background: #25D366;
-      color: var(--white);
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-      font-size: 0.9rem;
-      padding: 12px 22px 12px 14px;
-      border-radius: 100px;
-      box-shadow: 0 6px 24px rgba(37,211,102,0.45);
-      transition: transform 0.25s, box-shadow 0.25s;
-      white-space: nowrap;
-    }
-    .whatsapp-float a:hover {
-      transform: scale(1.05);
-      box-shadow: 0 10px 32px rgba(37,211,102,0.55);
-    }
-    .whatsapp-float svg { width: 26px; height: 26px; fill: var(--white); flex-shrink: 0; }
-    .wa-pulse {
-      position: absolute;
-      top: 8px; left: 8px;
-      width: 44px; height: 44px;
-      border-radius: 50%;
-      background: #25D366;
-      opacity: 0.4;
-      animation: pulse 1.8s ease-out infinite;
-      z-index: -1;
-    }
-    @keyframes pulse {
-      0%   { transform: scale(1); opacity: 0.4; }
-      100% { transform: scale(2.2); opacity: 0; }
-    }
-
-    /* ─────────────────────────────────────────
-       FOOTER
-    ───────────────────────────────────────── */
-    footer {
-      background: var(--black);
-      color: rgba(255,255,255,0.70);
-      padding: 72px 0 0;
-    }
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr;
-      gap: 48px;
-      padding-bottom: 48px;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-    }
-    .footer-brand img { height: 40px; margin-bottom: 20px; }
-    .footer-brand p {
-      font-size: 0.9rem;
-      line-height: 1.75;
-      max-width: 320px;
-      margin-bottom: 28px;
-    }
-    .footer-social {
-      display: flex;
-      gap: 12px;
-    }
-    .footer-social a {
-      width: 40px; height: 40px;
-      background: rgba(255,255,255,0.08);
-      border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      transition: background 0.25s;
-    }
-    .footer-social a:hover { background: var(--red); }
-    .footer-social svg { width: 18px; height: 18px; stroke: rgba(255,255,255,0.8); }
-    .footer-col h4 {
-      font-family: 'Poppins', sans-serif;
-      font-size: 0.88rem;
-      font-weight: 700;
-      color: var(--white);
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 20px;
-    }
-    .footer-col ul li { margin-bottom: 10px; }
-    .footer-col ul li a {
-      font-size: 0.9rem;
-      color: rgba(255,255,255,0.6);
-      transition: color 0.2s;
-    }
-    .footer-col ul li a:hover { color: var(--red); }
-    .footer-bottom {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px 0;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .footer-bottom p { font-size: 0.82rem; color: rgba(255,255,255,0.35); }
-    .footer-bottom a { color: var(--red); }
-
-    /* ─────────────────────────────────────────
-       RESPONSIVE
-    ───────────────────────────────────────── */
-    @media (max-width: 1024px) {
-      .sobre-grid { grid-template-columns: 1fr; }
-      .sobre-img-wrap { max-width: 500px; margin: 0 auto; }
-      .contato-grid { grid-template-columns: 1fr; }
-      .footer-grid { grid-template-columns: 1fr 1fr; }
-    }
-
-    @media (max-width: 768px) {
-      .section { padding: 72px 0; }
-      .nav-links, .nav-cta { display: none; }
-      .hamburger { display: flex; }
-      .hero-actions { flex-direction: column; align-items: flex-start; }
-      .hero-actions .btn, .hero-actions .btn-ghost { width: auto; }
-      .galeria-grid {
-        grid-template-columns: 1fr 1fr;
-      }
-      .galeria-item:nth-child(1) { grid-column: span 2; }
-      .galeria-item:nth-child(4) { grid-column: span 1; }
-      .footer-grid { grid-template-columns: 1fr; }
-      .hero-title { font-size: clamp(2.2rem, 9vw, 3.2rem); }
-      .form-row { grid-template-columns: 1fr; }
-      .contact-form { padding: 32px 24px; }
-    }
-
-    @media (max-width: 480px) {
-      .strip-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.15); }
-      .strip-item:last-child { border-bottom: none; }
-      .galeria-grid { grid-template-columns: 1fr; }
-      .galeria-item:nth-child(1),
-      .galeria-item:nth-child(4) { grid-column: span 1; }
-      .hero-actions { flex-direction: column; }
-      .hero-actions .btn { width: 100%; justify-content: center; }
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
 </head>
-<body>
+<body class="home-page">
 
-<!-- ══════════════════════════════════════════
-     HEADER
-══════════════════════════════════════════ -->
-<header id="header">
-  <div class="nav-inner">
-    <a href="#hero" class="nav-logo" aria-label="Construtora Santos">
-      <!-- Logo branca no pill escuro -->
-      <img class="logo-default" src="Logo/logo2.svg" alt="Construtora Santos" style="filter: brightness(0) invert(1);" />
-      <!-- Logo original no pill claro (após scroll) -->
-      <img class="logo-scrolled" src="Logo/logo2.svg" alt="Construtora Santos" />
-    </a>
-
-    <ul class="nav-links" role="list">
-      <li><a href="#beneficios">Benefícios</a></li>
-      <li><a href="#servicos">Serviços</a></li>
-      <li><a href="#processo">Como trabalhamos</a></li>
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-
-    <div class="nav-cta">
-      <a href="https://wa.me/5512992060227" class="btn btn-primary" target="_blank" rel="noopener" style="padding: 11px 22px; font-size:0.875rem;">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        Orçamento
+  <header>
+    <nav class="container navbar" aria-label="Navegação principal">
+      <a class="brand" href="index.html" aria-label="Página inicial da Construtora Santos">
+        <img src="Logo/logo2.svg" alt="Construtora Santos" />
       </a>
-    </div>
 
-    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
+      <ul class="nav-links" role="list">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#diferenciais">Diferenciais</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
 
-<!-- Mobile menu -->
-<div class="mobile-menu" id="mobileMenu">
-  <a href="#beneficios" onclick="closeMobile()">Benefícios</a>
-  <a href="#servicos" onclick="closeMobile()">Serviços</a>
-  <a href="#processo" onclick="closeMobile()">Como trabalhamos</a>
-  <a href="#sobre" onclick="closeMobile()">Sobre</a>
-  <a href="#contato" onclick="closeMobile()">Contato</a>
-  <a href="https://wa.me/5512992060227" target="_blank" rel="noopener"
-     style="color:var(--red); margin-top:4px;">↗ Solicitar Orçamento</a>
-</div>
-
-
-<!-- ══════════════════════════════════════════
-     HERO
-══════════════════════════════════════════ -->
-<section id="hero">
-  <div class="hero-overlay" aria-hidden="true"></div>
-
-  <div class="container">
-    <div class="hero-content">
-
-      <!-- Coluna esquerda: texto -->
-      <div class="hero-text">
-        <div class="hero-tag">Construtora Santos</div>
-        <h1 class="hero-title">
-          Vai <em>construir</em><br>ou <em>reformar?</em>
-        </h1>
-        <p class="hero-subtitle">Nós podemos ajudar!</p>
-        <p class="hero-desc">
-          Na Construtora Santos, transformamos seu projeto em realidade com qualidade, rapidez e profissionais especializados.
-        </p>
-        <div class="hero-actions">
-          <a href="https://wa.me/5512992060227" class="btn btn-primary" target="_blank" rel="noopener">
-            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            Solicitar Orçamento
-          </a>
-          <a href="#servicos" class="btn-ghost">
-            Ver serviços
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </a>
-        </div>
-      </div>
-
-      <!-- Coluna direita: cards de métricas glass -->
-      <div class="hero-right" aria-hidden="true">
-        <div class="hero-card accent">
-          <div class="hero-card-label">Obras entregues</div>
-          <div class="hero-card-value">500<sup>+</sup></div>
-          <div class="hero-card-sub">em todo o Vale do Paraíba</div>
-        </div>
-        <div class="hero-card">
-          <div class="hero-card-label">Satisfação dos clientes</div>
-          <div class="hero-card-value">98<sup>%</sup></div>
-          <div class="hero-card-sub">índice de aprovação</div>
-        </div>
-        <div class="hero-card">
-          <div class="hero-card-label">Experiência</div>
-          <div class="hero-card-value">+15<sup> anos</sup></div>
-          <div class="hero-card-sub">de obras e reformas</div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="hero-scroll-hint" aria-hidden="true">
-    <div class="scroll-line"></div>
-    Role para baixo
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════════
-     STRIP NÚMEROS
-══════════════════════════════════════════ -->
-<section id="strip" aria-label="Números da empresa">
-  <div class="container">
-    <div class="strip-inner">
-      <div class="strip-item">
-        <div class="strip-num" data-count="500">0</div>
-        <div class="strip-label">Obras entregues</div>
-      </div>
-      <div class="strip-item">
-        <div class="strip-num" data-count="15">0</div>
-        <div class="strip-label">Anos de experiência</div>
-      </div>
-      <div class="strip-item">
-        <div class="strip-num" data-count="98">0</div>
-        <div class="strip-label">% de clientes satisfeitos</div>
-      </div>
-      <div class="strip-item">
-        <div class="strip-num" data-count="50">0</div>
-        <div class="strip-label">Profissionais</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════════
-     BENEFÍCIOS
-══════════════════════════════════════════ -->
-<section id="beneficios" class="section">
-  <div class="container">
-    <div class="reveal">
-      <div class="badge">Por que nos escolher</div>
-      <h2 class="section-title">Por que escolher a <span>Construtora Santos?</span></h2>
-      <p class="section-sub">Mais do que construir, criamos sonhos com responsabilidade e excelência em cada etapa.</p>
-    </div>
-    <div class="beneficios-grid">
-      <div class="beneficio-card reveal">
-        <div class="beneficio-icon">
-          <!-- building icon -->
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 22V12h6v10M3 9h18"/>
+      <div class="actions">
+        <a class="btn btn-icon btn-outline" href="mailto:verificar.assessoria@gmail.com?subject=Solicita%C3%A7%C3%A3o%20de%20Or%C3%A7amento" aria-label="Enviar e-mail" title="E-mail">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6h16v12H4z" />
+            <path d="m4 7 8 6 8-6" />
           </svg>
-        </div>
-        <h3>Serviços completos</h3>
-        <p>Do planejamento até a entrega final da obra. Cuidamos de cada detalhe para que você não precise se preocupar com nada.</p>
-      </div>
-      <div class="beneficio-card reveal">
-        <div class="beneficio-icon">
-          <!-- users icon -->
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+        </a>
+        <a class="btn btn-icon btn-primary" href="https://wa.me/5512992060227?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Abrir WhatsApp" title="WhatsApp">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H7l-4 3 1.5-4.5A8.5 8.5 0 1 1 21 11.5z" />
           </svg>
-        </div>
-        <h3>Equipe especializada</h3>
-        <p>Profissionais qualificados e experientes, comprometidos com a excelência e segurança em cada obra realizada.</p>
-      </div>
-      <div class="beneficio-card reveal">
-        <div class="beneficio-icon">
-          <!-- check icon -->
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="20 6 9 17 4 12"/>
-          </svg>
-        </div>
-        <h3>Qualidade garantida</h3>
-        <p>Materiais de qualidade e execução profissional impecável. Cada projeto recebe nossa assinatura de excelência.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════════
-     SERVIÇOS
-══════════════════════════════════════════ -->
-<section id="servicos" class="section">
-  <div class="container">
-    <div class="reveal">
-      <div class="badge">O que fazemos</div>
-      <h2 class="section-title">Nossos <span>Serviços</span></h2>
-      <p class="section-sub" style="color:rgba(255,255,255,0.58)">Soluções completas para construção e reforma do início ao fim.</p>
-    </div>
-    <div class="servicos-grid">
-      <div class="servico-card reveal">
-        <div class="servico-num">01</div>
-        <h3>Construção Residencial</h3>
-        <p>Casas e projetos completos do zero, com planejamento detalhado e execução de alto padrão.</p>
-      </div>
-      <div class="servico-card reveal">
-        <div class="servico-num">02</div>
-        <h3>Reformas</h3>
-        <p>Modernização e melhoria de imóveis residenciais e comerciais com qualidade e eficiência.</p>
-      </div>
-      <div class="servico-card reveal">
-        <div class="servico-num">03</div>
-        <h3>Ampliações</h3>
-        <p>Aumente o espaço do seu imóvel de forma inteligente, segura e harmoniosa com a estrutura existente.</p>
-      </div>
-      <div class="servico-card reveal">
-        <div class="servico-num">04</div>
-        <h3>Projetos Personalizados</h3>
-        <p>Construções feitas sob medida para atender exatamente às suas necessidades e sonhos.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════════
-     PROCESSO
-══════════════════════════════════════════ -->
-<section id="processo" class="section">
-  <div class="container">
-    <div style="text-align:center" class="reveal">
-      <div class="badge">Nosso método</div>
-      <h2 class="section-title">Como <span>trabalhamos</span></h2>
-      <p class="section-sub" style="margin:0 auto">Um processo transparente e eficiente, do primeiro contato até a entrega da obra.</p>
-    </div>
-    <div class="processo-steps">
-      <div class="step reveal">
-        <div class="step-number">1</div>
-        <h3>Planejamento</h3>
-        <p>Entendemos seu projeto em detalhes, levantamos necessidades, elaboramos cronograma e orçamento preciso.</p>
-      </div>
-      <div class="step reveal">
-        <div class="step-number">2</div>
-        <h3>Execução</h3>
-        <p>Nossa equipe inicia a obra com organização, qualidade e total transparência em cada fase da construção.</p>
-      </div>
-      <div class="step reveal">
-        <div class="step-number">3</div>
-        <h3>Entrega</h3>
-        <p>Seu projeto pronto com acabamento profissional, vistoria completa e total satisfação garantida.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════════
-     GALERIA
-══════════════════════════════════════════ -->
-<section id="galeria" class="section">
-  <div class="container">
-    <div class="reveal">
-      <div class="badge">Portfólio</div>
-      <h2 class="section-title">Nossos <span>Projetos</span></h2>
-      <p class="section-sub">Veja alguns dos trabalhos que realizamos com dedicação e qualidade.</p>
-    </div>
-    <div class="galeria-grid reveal">
-      <div class="galeria-item">
-        <div class="galeria-item-inner">
-          <div class="galeria-placeholder"></div>
-          <div class="galeria-label">
-            <span>Construção Residencial</span>
-          </div>
-        </div>
-      </div>
-      <div class="galeria-item">
-        <div class="galeria-item-inner">
-          <div class="galeria-placeholder"></div>
-          <div class="galeria-label">
-            <span>Reforma Completa</span>
-          </div>
-        </div>
-      </div>
-      <div class="galeria-item">
-        <div class="galeria-item-inner">
-          <div class="galeria-placeholder"></div>
-          <div class="galeria-label">
-            <span>Ampliação</span>
-          </div>
-        </div>
-      </div>
-      <div class="galeria-item">
-        <div class="galeria-item-inner">
-          <div class="galeria-placeholder"></div>
-          <div class="galeria-label">
-            <span>Projeto Personalizado</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════════
-     DEPOIMENTOS
-══════════════════════════════════════════ -->
-<section id="depoimentos" class="section">
-  <div class="container">
-    <div style="text-align:center" class="reveal">
-      <div class="badge">Depoimentos</div>
-      <h2 class="section-title" style="color:var(--white)">Clientes <span>Satisfeitos</span></h2>
-    </div>
-    <div class="depoimentos-grid">
-      <div class="depoimento-card reveal">
-        <div class="stars">★★★★★</div>
-        <p>Profissionais sérios e obra entregue dentro do prazo. Ficamos muito satisfeitos com o resultado final e com o atendimento de toda a equipe.</p>
-        <div class="depoimento-autor">
-          <div class="author-avatar">CA</div>
-          <div class="author-info">
-            <span>Carlos Almeida</span>
-            <small>Cliente — Construção residencial</small>
-          </div>
-        </div>
-      </div>
-      <div class="depoimento-card reveal">
-        <div class="stars">★★★★★</div>
-        <p>Excelente qualidade e atendimento. A equipe foi super prestativa em todos os momentos. Superou nossas expectativas em todos os aspectos.</p>
-        <div class="depoimento-autor">
-          <div class="author-avatar">MS</div>
-          <div class="author-info">
-            <span>Mariana Souza</span>
-            <small>Cliente — Reforma residencial</small>
-          </div>
-        </div>
-      </div>
-      <div class="depoimento-card reveal">
-        <div class="stars">★★★★★</div>
-        <p>Recomendo a todos! Minha obra foi executada com perfeição. Orçamento justo, prazo cumprido e acabamento de altíssima qualidade.</p>
-        <div class="depoimento-autor">
-          <div class="author-avatar">RP</div>
-          <div class="author-info">
-            <span>Roberto Pereira</span>
-            <small>Cliente — Ampliação</small>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════════
-     SOBRE
-══════════════════════════════════════════ -->
-<section id="sobre" class="section">
-  <div class="container">
-    <div class="sobre-grid">
-      <div class="sobre-img-wrap reveal">
-        <div class="sobre-img-bg">
-          <img src="Logo/logo1.svg" alt="Construtora Santos" style="position:absolute;inset:0;width:70%;margin:auto;top:0;bottom:0;left:0;right:0;padding:40px;filter:brightness(10);" loading="lazy" />
-        </div>
-        <div class="sobre-img-accent" aria-hidden="true"></div>
-        <div class="sobre-badge-float">
-          <div class="num">+15</div>
-          <div class="desc">Anos de experiência</div>
-        </div>
-      </div>
-      <div class="sobre-text reveal">
-        <div class="badge">Quem somos</div>
-        <h2 class="section-title">Sobre a <span>Construtora Santos</span></h2>
-        <p>A Construtora Santos atua no setor da construção civil oferecendo soluções completas para obras e reformas. Nosso compromisso é entregar projetos com qualidade, segurança e eficiência.</p>
-        <p>Com uma equipe de profissionais altamente qualificados, trabalhamos lado a lado com nossos clientes para transformar cada projeto em uma obra que supere expectativas.</p>
-        <ul class="sobre-list">
-          <li>
-            <div class="check-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-            </div>
-            Equipe de profissionais certificados
-          </li>
-          <li>
-            <div class="check-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-            </div>
-            Materiais de primeira qualidade
-          </li>
-          <li>
-            <div class="check-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-            </div>
-            Prazos rigorosamente cumpridos
-          </li>
-          <li>
-            <div class="check-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-            </div>
-            Transparência total em cada etapa
-          </li>
-        </ul>
-        <a href="https://wa.me/5512992060227" class="btn btn-primary" target="_blank" rel="noopener">
-          Falar com um especialista
         </a>
       </div>
-    </div>
-  </div>
-</section>
 
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    </nav>
 
-<!-- ══════════════════════════════════════════
-     CTA
-══════════════════════════════════════════ -->
-<section id="cta">
-  <div class="container">
-    <div class="cta-inner reveal">
-      <h2>Pronto para começar sua obra?</h2>
-      <p>Solicite agora mesmo seu orçamento sem compromisso. Nossa equipe responde rapidamente pelo WhatsApp.</p>
-      <div class="cta-buttons">
-        <a href="https://wa.me/5512992060227" class="btn btn-dark" target="_blank" rel="noopener">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Falar no WhatsApp
-        </a>
-        <a href="#contato" class="btn btn-outline">Enviar mensagem</a>
+    <div id="mobileNav" class="mobile-nav" aria-label="Menu móvel">
+      <div class="container">
+        <a href="index.html">Home</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#servicos">Serviços</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+        <a href="https://wa.me/5512992060227?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener">Falar no WhatsApp</a>
       </div>
     </div>
-  </div>
-</section>
+  </header>
 
-
-<!-- ══════════════════════════════════════════
-     CONTATO
-══════════════════════════════════════════ -->
-<section id="contato" class="section">
-  <div class="container">
-    <div class="reveal">
-      <div class="badge">Fale conosco</div>
-      <h2 class="section-title">Entre em <span>Contato</span></h2>
-    </div>
-    <div class="contato-grid">
-      <div class="contato-info reveal">
-        <h3>Vamos conversar sobre seu projeto?</h3>
-        <p>Estamos prontos para atendê-lo. Escolha a forma que preferir para entrar em contato conosco.</p>
-        <div class="contato-item">
-          <div class="contato-item-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 012 2.18 2 2 0 013.98 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
-            </svg>
-          </div>
-          <div class="contato-item-text">
-            <span>WhatsApp / Telefone</span>
-            <strong>(12) 99206-0227</strong>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="badge">Construção civil completa</div>
+          <h1>Seu projeto com <span>qualidade, velocidade e responsabilidade</span>.</h1>
+          <p>
+            A Construtora Santos executa obras residenciais, comerciais e industriais com equipe especializada,
+            planejamento técnico e compromisso com resultado. Atendimento em todo o território estadual.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="https://wa.me/5512992060227?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20para%20minha%20obra." target="_blank" rel="noopener">Solicitar orçamento</a>
+            <a class="btn btn-outline" href="contato.html">Ver canais de contato</a>
           </div>
         </div>
-        <div class="contato-item">
-          <div class="contato-item-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
-            </svg>
+
+        <aside class="hero-panel" aria-label="Informações principais da empresa">
+          <div class="panel-item">
+            <strong>WhatsApp e Telefone</strong>
+            <a href="tel:+5512992060227">(12) 99206-0227</a>
           </div>
-          <div class="contato-item-text">
-            <span>Atendimento</span>
-            <strong>Vale do Paraíba — SP</strong>
+          <div class="panel-item">
+            <strong>E-mail comercial</strong>
+            <a href="mailto:verificar.assessoria@gmail.com?subject=Contato%20Comercial">verificar.assessoria@gmail.com</a>
           </div>
+          <div class="panel-item">
+            <strong>Cidade sede</strong>
+            <a href="https://www.google.com/maps/search/?api=1&query=Rua+Frei+Gaspar+637+-+CJ37+-+Centro+de+S%C3%A3o+Vicente,+SP" target="_blank" rel="noopener">Rua Frei Gaspar 637 - CJ37 - Centro de São Vicente, SP</a>
+          </div>
+          <div class="panel-item">
+            <strong>CNPJ</strong>
+            <p>59.243.407/0001-92</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="diferenciais" class="section">
+      <div class="container">
+        <div class="badge">Principais diferenciais</div>
+        <h2 class="section-title">Por que escolher a <span>Construtora Santos</span></h2>
+        <p class="section-sub">Gestão próxima, comunicação clara e padrão técnico para entregar obra segura, funcional e durável.</p>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Rapidez com planejamento</h3>
+            <p>Cronograma estruturado e acompanhamento de obra para reduzir atrasos e manter previsibilidade.</p>
+          </article>
+          <article class="card">
+            <h3>Equipe especializada</h3>
+            <p>Profissionais capacitados em construção, reforma, instalações e gestão técnica de ponta a ponta.</p>
+          </article>
+          <article class="card">
+            <h3>Qualidade e garantia</h3>
+            <p>Execução com padrão técnico e foco em acabamento, segurança estrutural e durabilidade da obra.</p>
+          </article>
         </div>
-        <div class="contato-item">
-          <div class="contato-item-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
-            </svg>
+      </div>
+    </section>
+
+    <section id="servicos" class="section">
+      <div class="container">
+        <div class="badge">Portfólio completo</div>
+        <h2 class="section-title">Serviços da <span>Construtora Santos</span></h2>
+        <p class="section-sub">Do projeto ao acabamento: soluções integradas para obras novas, reformas e infraestrutura urbana.</p>
+
+        <div class="service-groups">
+          <article class="service-group">
+            <h3>🏗️ Serviços de Construção</h3>
+            <ul>
+              <li>Construção de casas (residenciais)</li>
+              <li>Construção de prédios e condomínios</li>
+              <li>Obras comerciais (lojas, escritórios, galpões)</li>
+              <li>Construção industrial</li>
+            </ul>
+          </article>
+
+          <article class="service-group">
+            <h3>🧱 Reformas e Manutenções</h3>
+            <ul>
+              <li>Reformas gerais (internas e externas)</li>
+              <li>Ampliações de imóveis</li>
+              <li>Retrofit (modernização de construções antigas)</li>
+              <li>Manutenção preventiva e corretiva</li>
+            </ul>
+          </article>
+
+          <article class="service-group">
+            <h3>📐 Projetos e Planejamento</h3>
+            <ul>
+              <li>Elaboração de projetos arquitetônicos</li>
+              <li>Projetos estruturais</li>
+              <li>Projetos elétricos e hidráulicos</li>
+              <li>Regularização de imóveis</li>
+              <li>Aprovação de projetos em órgãos públicos</li>
+            </ul>
+          </article>
+
+          <article class="service-group">
+            <h3>🛠️ Serviços Técnicos</h3>
+            <ul>
+              <li>Gerenciamento de obras</li>
+              <li>Fiscalização de obras</li>
+              <li>Consultoria técnica</li>
+              <li>Orçamentos e planejamento financeiro</li>
+            </ul>
+          </article>
+
+          <article class="service-group">
+            <h3>🌿 Infraestrutura e Urbanização</h3>
+            <ul>
+              <li>Pavimentação</li>
+              <li>Terraplanagem</li>
+              <li>Saneamento básico</li>
+              <li>Drenagem</li>
+            </ul>
+          </article>
+
+          <article class="service-group">
+            <h3>🏢 Acabamentos e Instalações</h3>
+            <ul>
+              <li>Instalações elétricas e hidráulicas</li>
+              <li>Revestimentos e pisos</li>
+              <li>Pintura</li>
+              <li>Gesso e drywall</li>
+              <li>Construções sustentáveis, energia solar e reuso de água</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="cta-band">
+          <div>
+            <h3>Atendimento em todo o território estadual</h3>
+            <p>Solicite seu orçamento por WhatsApp ou e-mail e receba retorno rápido da equipe.</p>
           </div>
-          <div class="contato-item-text">
-            <span>Horário de atendimento</span>
-            <strong>Seg–Sex, 8h às 18h</strong>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="https://wa.me/5512992060227?text=Ol%C3%A1%2C%20preciso%20de%20um%20or%C3%A7amento%20de%20obra." target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-outline" href="mailto:verificar.assessoria@gmail.com?subject=Pedido%20de%20Or%C3%A7amento">E-mail</a>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="contact-form reveal">
-        <h3>Solicite seu orçamento</h3>
-        <form id="contactForm" novalidate>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="nome">Nome *</label>
-              <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required autocomplete="name" />
+    <section class="section">
+      <div class="container">
+        <div class="badge">Contato direto</div>
+        <h2 class="section-title">Fale com a equipe sem formulário</h2>
+        <p class="section-sub">Todos os canais abaixo estão configurados com link direto para ação rápida.</p>
+
+        <div class="contact-list">
+          <article class="contact-row">
+            <div>
+              <span>WhatsApp e Telefone</span>
+              <strong>(12) 99206-0227</strong>
             </div>
-            <div class="form-group">
-              <label for="telefone">Telefone *</label>
-              <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required autocomplete="tel" />
+            <a href="https://wa.me/5512992060227?text=Ol%C3%A1%2C%20quero%20falar%20com%20a%20Construtora%20Santos." target="_blank" rel="noopener">Abrir WhatsApp</a>
+          </article>
+
+          <article class="contact-row">
+            <div>
+              <span>E-mail</span>
+              <strong>verificar.assessoria@gmail.com</strong>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" autocomplete="email" />
-          </div>
-          <div class="form-group">
-            <label for="servico">Tipo de serviço</label>
-            <select id="servico" name="servico">
-              <option value="">Selecione um serviço</option>
-              <option>Construção Residencial</option>
-              <option>Reforma</option>
-              <option>Ampliação</option>
-              <option>Projeto Personalizado</option>
-              <option>Outro</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="mensagem">Mensagem *</label>
-            <textarea id="mensagem" name="mensagem" placeholder="Descreva seu projeto ou dúvida..." required></textarea>
-          </div>
-          <div class="form-check">
-            <input type="checkbox" id="lgpd" name="lgpd" required />
-            <label for="lgpd">Concordo com o tratamento dos meus dados para fins de contato, conforme a <a href="#">Política de Privacidade</a>.</label>
-          </div>
-          <button type="submit" class="btn btn-primary form-submit">
-            Enviar mensagem
-          </button>
-        </form>
-        <div class="form-success" id="formSuccess" role="alert">
-          ✓ Mensagem enviada com sucesso! Entraremos em contato em breve.
+            <a href="mailto:verificar.assessoria@gmail.com?subject=Contato%20Site%20Construtora%20Santos">Enviar e-mail</a>
+          </article>
+
+          <article class="contact-row">
+            <div>
+              <span>Cidade sede</span>
+              <strong>Rua Frei Gaspar 637 - CJ37 - Centro de São Vicente, SP</strong>
+            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=Rua+Frei+Gaspar+637+-+CJ37+-+Centro+de+S%C3%A3o+Vicente,+SP" target="_blank" rel="noopener">Abrir no mapa</a>
+          </article>
         </div>
       </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <section>
+          <h4>Construtora Santos</h4>
+          <p>Construção, reforma, planejamento e gestão de obras com foco em qualidade, prazo e transparência.</p>
+          <p>CNPJ: 59.243.407/0001-92</p>
+        </section>
+
+        <section>
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Informações principais</h4>
+          <ul>
+            <li><a href="tel:+5512992060227">Telefone/WhatsApp: (12) 99206-0227</a></li>
+            <li><a href="mailto:verificar.assessoria@gmail.com">verificar.assessoria@gmail.com</a></li>
+            <li><a href="https://www.google.com/maps/search/?api=1&query=Rua+Frei+Gaspar+637+-+CJ37+-+Centro+de+S%C3%A3o+Vicente,+SP" target="_blank" rel="noopener">Rua Frei Gaspar 637 - CJ37 - Centro de São Vicente, SP</a></li>
+            <li>Região de atendimento: todo o território estadual</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> Construtora Santos. Todos os direitos reservados.</p>
+        <p>Canal direto: WhatsApp e e-mail, sem formulário.</p>
+      </div>
     </div>
+  </footer>
+
+  <div class="float-wa" aria-label="WhatsApp flutuante">
+    <a href="https://wa.me/5512992060227?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">WhatsApp</a>
   </div>
-</section>
 
-
-<!-- ══════════════════════════════════════════
-     FOOTER
-══════════════════════════════════════════ -->
-<footer>
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <img src="Logo/logo2.svg" alt="Construtora Santos" style="filter: brightness(10);" loading="lazy" />
-        <p>Transformamos seu projeto em realidade com qualidade, rapidez e profissionais especializados.</p>
-        <div class="footer-social">
-          <!-- Instagram -->
-          <a href="#" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-              <rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-            </svg>
-          </a>
-          <!-- Facebook -->
-          <a href="#" aria-label="Facebook">
-            <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
-            </svg>
-          </a>
-          <!-- WhatsApp -->
-          <a href="https://wa.me/5512992060227" aria-label="WhatsApp" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="rgba(255,255,255,0.8)" stroke="none">
-              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h4>Navegação</h4>
-        <ul>
-          <li><a href="#beneficios">Benefícios</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#processo">Como trabalhamos</a></li>
-          <li><a href="#galeria">Projetos</a></li>
-          <li><a href="#sobre">Sobre nós</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Serviços</h4>
-        <ul>
-          <li><a href="#servicos">Construção Residencial</a></li>
-          <li><a href="#servicos">Reformas</a></li>
-          <li><a href="#servicos">Ampliações</a></li>
-          <li><a href="#servicos">Projetos Personalizados</a></li>
-        </ul>
-        <br/>
-        <h4>Contato</h4>
-        <ul>
-          <li><a href="https://wa.me/5512992060227" target="_blank" rel="noopener">(12) 99206-0227</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <p>© 2026 Construtora Santos. Todos os direitos reservados.</p>
-      <p>CNPJ: XX.XXX.XXX/0001-XX | <a href="#">Política de Privacidade</a></p>
-    </div>
-  </div>
-</footer>
-
-
-<!-- ══════════════════════════════════════════
-     WHATSAPP FLUTUANTE
-══════════════════════════════════════════ -->
-<div class="whatsapp-float" aria-label="Falar pelo WhatsApp">
-  <div class="wa-pulse" aria-hidden="true"></div>
-  <a href="https://wa.me/5512992060227" target="_blank" rel="noopener" aria-label="Contato via WhatsApp">
-    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-    </svg>
-    Falar no WhatsApp
-  </a>
-</div>
-
-
-<!-- ══════════════════════════════════════════
-     SCRIPTS
-══════════════════════════════════════════ -->
-<script>
-  /* ── Header scroll ── */
-  const header = document.getElementById('header');
-  window.addEventListener('scroll', () => {
-    header.classList.toggle('scrolled', window.scrollY > 40);
-  }, { passive: true });
-
-  /* ── Hamburger ── */
-  const hamburger = document.getElementById('hamburger');
-  const mobileMenu = document.getElementById('mobileMenu');
-  hamburger.addEventListener('click', () => {
-    const open = mobileMenu.classList.toggle('open');
-    hamburger.classList.toggle('active', open);
-    hamburger.setAttribute('aria-expanded', open);
-  });
-  function closeMobile() {
-    mobileMenu.classList.remove('open');
-    hamburger.classList.remove('active');
-    hamburger.setAttribute('aria-expanded', 'false');
-  }
-
-  /* ── Scroll reveal ── */
-  const revealEls = document.querySelectorAll('.reveal');
-  const revealObs = new IntersectionObserver((entries) => {
-    entries.forEach((e, i) => {
-      if (e.isIntersecting) {
-        setTimeout(() => e.target.classList.add('visible'), i * 80);
-        revealObs.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.12 });
-  revealEls.forEach(el => revealObs.observe(el));
-
-  /* ── Counter animation ── */
-  function animateCount(el, target, suffix) {
-    const duration = 1800;
-    const start = performance.now();
-    function step(now) {
-      const progress = Math.min((now - start) / duration, 1);
-      const ease = 1 - Math.pow(1 - progress, 3);
-      el.textContent = Math.floor(ease * target) + (suffix || '');
-      if (progress < 1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
-  }
-  const countEls = document.querySelectorAll('[data-count]');
-  const countObs = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        const target = parseInt(e.target.dataset.count);
-        const suffix = e.target.dataset.suffix || '';
-        animateCount(e.target, target, suffix);
-        countObs.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.5 });
-  countEls.forEach(el => countObs.observe(el));
-
-  /* ── Form submission (redirect to WhatsApp) ── */
-  const form = document.getElementById('contactForm');
-  form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    const nome    = form.nome.value.trim();
-    const tel     = form.telefone.value.trim();
-    const msg     = form.mensagem.value.trim();
-    const servico = form.servico.value;
-    const lgpd    = form.lgpd.checked;
-
-    if (!nome || !tel || !msg) {
-      alert('Por favor, preencha os campos obrigatórios (nome, telefone e mensagem).');
-      return;
-    }
-    if (!lgpd) {
-      alert('Por favor, aceite a Política de Privacidade para continuar.');
-      return;
-    }
-
-    const text = encodeURIComponent(
-      `Olá! Me chamo *${nome}*.\n` +
-      `Telefone: ${tel}\n` +
-      (servico ? `Serviço de interesse: ${servico}\n` : '') +
-      `Mensagem: ${msg}`
-    );
-    window.open(`https://wa.me/5512992060227?text=${text}`, '_blank', 'noopener');
-
-    document.getElementById('formSuccess').style.display = 'block';
-    form.reset();
-  });
-
-  /* ── Smooth active nav highlight ── */
-  const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-links a');
-  window.addEventListener('scroll', () => {
-    let current = '';
-    sections.forEach(sec => {
-      if (window.scrollY >= sec.offsetTop - 120) current = sec.getAttribute('id');
-    });
-    navLinks.forEach(a => {
-      a.style.color = a.getAttribute('href') === `#${current}`
-        ? 'var(--red)'
-        : '';
-    });
-  }, { passive: true });
-</script>
-
+  <script src="assets/site.js" defer></script>
 </body>
 </html>

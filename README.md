@@ -1,31 +1,39 @@
 # Construtora Santos
 
-Site institucional da Construtora Santos.
+Site institucional da Construtora Santos com navegação entre Home, Sobre e Contato.
 
-## 🔗 Deploy
+## Deploy
 
-Hospedado na [Vercel](https://vercel.com) — `construtorasantos.com.br`
+Hospedado na Vercel em construtorasantos.com.br.
 
-## 🛠 Stack
+## Stack
 
-- HTML5 semântico
-- CSS3 (variáveis, grid, flexbox, `backdrop-filter`)
+- HTML5
+- CSS3
 - JavaScript vanilla
-- Google Fonts (Poppins + Inter)
-- SVGs nativos (sem dependências de ícones)
+- Google Fonts (Sora + Manrope)
 
-## 📁 Estrutura
+## Estrutura
 
 ```
-construtorasantos/
+contrutorasantos/
 ├── index.html
-├── vercel.json
-└── Logo/
-    ├── logo1.svg
-    ├── logo2.svg
-    └── logo3.svg
+├── sobre.html
+├── contato.html
+├── assets/
+│   ├── site.css
+│   └── site.js
+├── Logo/
+│   ├── logo1.svg
+│   ├── logo2.svg
+│   └── logo3.svg
+└── vercel.json
 ```
 
-## 📞 Contato
+## Dados da empresa
 
-WhatsApp: [(12) 99206-0227](https://wa.me/5512992060227)
+- Telefone e WhatsApp: (12) 99206-0227
+- E-mail: verificar.assessoria@gmail.com
+- Sede: Rua Frei Gaspar 637 - CJ37 - Centro de São Vicente, SP
+- CNPJ: 59.243.407/0001-92
+- Atendimento: todo o território estadual
