@@ -6,6 +6,20 @@ Site institucional da Construtora Santos com navegação entre Home, Sobre e Con
 
 Hospedado na Vercel em construtorasantos.com.br.
 
+## Google Search Console (vinculação)
+
+1. Acesse o Google Search Console e adicione a propriedade de domínio ou URL prefixo.
+2. Para verificação por meta tag, substitua o valor de `google-site-verification` no head da página inicial.
+3. Publique as alterações no repositório para disparar novo deploy na Vercel.
+4. No Search Console, envie o sitemap:
+
+`https://construtorasantos.com.br/sitemap.xml`
+
+Arquivos já preparados para indexação:
+
+- `robots.txt`
+- `sitemap.xml`
+
 ## Stack
 
 - HTML5
