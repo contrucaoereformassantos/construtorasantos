@@ -1,6 +1,6 @@
-# Construtora Santos
+# Grupo Santos Construção e Terraplanagem
 
-Site institucional da Construtora Santos com navegação entre Home, Sobre e Contato.
+Landing page institucional do Grupo Santos Construção e Terraplanagem com navegação entre Home, Sobre e Contato.
 
 ## Deploy
 
@@ -38,9 +38,9 @@ contrutorasantos/
 │   ├── site.css
 │   └── site.js
 ├── Logo/
-│   ├── logo1.svg
-│   ├── logo2.svg
-│   └── logo3.svg
+│   ├── logobranco.svg
+│   ├── logogradiente.svg
+│   └── logopreto.svg
 └── vercel.json
 ```
 
@@ -48,6 +48,9 @@ contrutorasantos/
 
 - Telefone e WhatsApp: (12) 99206-0227
 - E-mail: verificar.assessoria@gmail.com
+- Facebook: https://web.facebook.com/gruposantosconstrucaoeterraplanagem/
+- Instagram: https://www.instagram.com/santosconstrutora_/
+- Google: https://www.google.com/search?q=Grupo+Santos+Constru%C3%A7%C3%A3o+e+Terraplanagem
 - Sede: Rua Frei Gaspar 637 - CJ37 - Centro de São Vicente, SP
 - CNPJ: 59.243.407/0001-92
 - Atendimento: todo o território estadual
